@@ -5,7 +5,7 @@ void main ()
 
 {
     int R1=0, R2=0, R3=0, R4=0, R5=0, RT=0;
-    printf ("Ingrese las cinco resistencias");
+    printf ("Ingrese las cinco resistencias ");
     scanf ("%d",&R1);
     scanf ("%d",&R2);
     scanf ("%d",&R3);
