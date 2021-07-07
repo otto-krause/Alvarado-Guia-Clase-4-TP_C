@@ -12,7 +12,7 @@ void main ()
 
     system ("cls");
 
-    if (Num3>Num2 & Num2>Num1)
+    if (Num3>Num2 && Num2>Num1)
         {
         printf("Los numeros fueron ingresados de forma ascendente");
         }
