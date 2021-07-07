@@ -5,21 +5,24 @@ void main ()
 
 {
     int Horas=0, Minutos=0, Segundos=0, UnidadFinal=0, Conversion=0;
-    printf("Ingrese las horas, luego los minutos, luego los segundos y por ultimo la unidad final");
+    printf("Ingrese las horas ");
     scanf("%d",&Horas);
+    printf ("Ingrese los minutos ");
     scanf("%d",&Minutos);
+    printf ("Ingrese los segundos ");
     scanf("%d",&Segundos);
+    printf ("Ingrese la unidad final del tiempo ");
     scanf("%d",&UnidadFinal);
 
     system ("cls");
 
-    if (UnidadFinal=1)
+    if (UnidadFinal==1)
         {
         Conversion=Horas*3600+Minutos*60+Segundos;
         }
     else 
         {
-        if (UnidadFinal=2)
+        if (UnidadFinal==2)
             {
             Conversion=Horas*60+Segundos/60+Minutos;
             }
