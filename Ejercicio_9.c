@@ -6,25 +6,32 @@ void main ()
 {
     int Categoria=0, HorasTrabajadas=0, Sueldo=0;
     printf ("Ingrese la categoria del empleado ");
-    scanf ("%d",&Categoria);
+    scanf ("%s",&Categoria);
     printf ("Ingrese las horas trabajadas por el empleado ");
     scanf ("%d",&HorasTrabajadas);
 
     system ("cls");
 
-    if (Categoria==1)
+    if (Categoria == "a" || "A")
         {
         Sueldo=HorasTrabajadas*200;
         }
     else
         {
-        if (Categoria==2)
+        if (Categoria == "b" || "B")
             {
             Sueldo=HorasTrabajadas*180;
             }
         else
             {
-            Sueldo=HorasTrabajadas*0;
+            if (Categoria == "c" || "C")
+                {
+                Sueldo=HorasTrabajadas*150;
+                }
+            else 
+                {
+                Sueldo=HorasTrabajadas*0;
+                }
             }
         }
     printf ("El sueldo del empleado es de; \n%d",Sueldo);
