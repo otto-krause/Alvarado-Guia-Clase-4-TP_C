@@ -14,5 +14,5 @@ void main ()
   P = 2*lado1 + 2*lado2;
   A = lado1 * lado2;
 
-  printf ("El perimetro del rectangulo es de: \n%d\ny su area de: \n%d", lado1, lado2);
+  printf ("El perimetro del rectangulo es de: \n%d\ny su area de: \n%d", P, A);
 }
