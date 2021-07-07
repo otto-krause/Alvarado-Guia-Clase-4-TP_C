@@ -5,9 +5,11 @@ void main ()
 
 {
     int SB=0, C=0, NDH=0, APH=0, SF=0;
-    printf ("Ingrese el sueldo basico del empleado, luego su categoria y finalmente su numero de hijos");
+    printf ("Ingrese el sueldo basico del empleado ");
     scanf ("%d",&SB);
+    printf ("Ingrese la categoria del empleado ");
     scanf ("%d",&C);
+    printf ("Ingrese la cantidad de hijos que posee el empleado ");
     scanf ("%d",&NDH);
 
     system ("cls");
