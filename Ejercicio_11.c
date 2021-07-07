@@ -5,8 +5,9 @@ void main ()
 
 {
     int P=0, A=0, IMC=0;
-    printf("Ingrese su peso y luego su altura");
+    printf("Ingrese su peso ");
     scanf("%d",&P);
+    printf ("Ingrese su altura ");
     scanf("%d",&A);
 
     system ("cls");
