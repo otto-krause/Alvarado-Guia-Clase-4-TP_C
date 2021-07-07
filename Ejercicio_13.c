@@ -12,19 +12,19 @@ void main ()
 
     system ("cls");
 
-    if (Valor1==Valor2 & Valor1==Valor3)
+    if (Valor1==Valor2 && Valor1==Valor3)
         {
         printf("Los tres valores son iguales");
         }
     else 
         {
-        if(Valor2=Valor3 & Valor1!=Valor2)
+        if(Valor2==Valor3 && Valor1!=Valor2)
             {
             printf("El primer valor es distinto a los otros dos iguales");
             }
         else 
             {
-            if (Valor1==Valor3 & Valor2!=Valor1)
+            if (Valor1==Valor3 && Valor2!=Valor1)
                 {
                 printf("El segundo valor es distinto a los otros dos iguales");
                 }
