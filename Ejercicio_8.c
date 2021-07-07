@@ -5,8 +5,9 @@ void main ()
 
 {
     int Edad=0, Horas=0, ValorNeto=0, ImporteTotal=0;
-    printf ("Ingrese su edad y luego las horas de servicio adquiridas");
+    printf ("Ingrese su edad ");
     scanf ("%d",&Edad);
+    printf ("Ingrese sus horas de servicio adquiridas ")
     scanf ("%d",&Horas);
 
     system ("cls");
