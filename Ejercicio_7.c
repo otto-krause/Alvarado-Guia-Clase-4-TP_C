@@ -5,8 +5,9 @@ void main ()
 
 {
     int num1=0, num2=0;
-    printf ("Ingrese el primer numero y luego el segundo");
+    printf ("Ingrese el primer numero ");
     scanf ("%d",&num1);
+    printf ("Ingrese el segundo numero ");
     scanf ("%d",&num2);
 
     system ("cls");
@@ -23,7 +24,7 @@ void main ()
             }
         else
             {
-            printf("El segundo valor es mayor al primero");
+            printf("El segundo numero es mayor al primero");
             }
         }
 }
