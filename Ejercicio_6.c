@@ -5,7 +5,7 @@ void main ()
 
 {
     int Valor=0, V8=0;
-    printf ("Ingrese un valor");
+    printf ("Ingrese un valor ");
     scanf ("%d",&Valor);
 
     system ("cls");
