@@ -5,8 +5,9 @@ void main ()
 
 {
     int PH=0, P=0, PPH=0, PPM=0;
-    printf ("Ingrese el numero de postulantes hombres y luego el numero total de postulantes");
+    printf ("Ingrese el numero de postulantes hombres ");
     scanf ("%d",&PH);
+    printf ("Ingrese el numero de postulantes totales ");
     scanf ("%d",&P);
 
     system ("cls");
