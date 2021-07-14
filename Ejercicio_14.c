@@ -11,7 +11,7 @@ void main ()
     scanf("%d",&Minutos);
     printf ("Ingrese los segundos ");
     scanf("%d",&Segundos);
-    printf ("Ingrese la unidad final del tiempo ");
+    printf ("Ingrese la unidad final ");
     scanf("%d",&UnidadFinal);
 
     system ("cls");
@@ -19,17 +19,19 @@ void main ()
     if (UnidadFinal==1)
         {
         Conversion=Horas*3600+Minutos*60+Segundos;
+        printf("El tiempo total es de: \n%d segundos",Conversion);
         }
     else 
         {
         if (UnidadFinal==2)
             {
             Conversion=Horas*60+Segundos/60+Minutos;
+            printf("El tiempo total es de: \n%d minutos",Conversion);
             }
         else
             {
             Conversion=Segundos/3600+Minutos/60+Horas;
+            printf("El tiempo total es de: \n%d horas",Conversion);
             }
         }
-    printf("El tiempo total es de: \n%d",Conversion);
 }
