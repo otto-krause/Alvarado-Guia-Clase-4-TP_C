@@ -16,5 +16,5 @@ void main ()
 
     RT=R1+R2+R3+R4+R5;
 
-    printf ("Los numeros ingresados son: \n&d\n&d\n&d\n&d\n&d\ny la suma de ellos es de: \n&d", R1, R2, R3, R4, R5, RT);
+    printf ("Las resistencias ingresadas son: \n%d\n%d\n%d\n%d\n%d\ny la resistencia total es de: \n%d", R1, R2, R3, R4, R5, RT);
 }
